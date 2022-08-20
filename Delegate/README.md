@@ -1,0 +1,1 @@
+Hacking a bunch of macros and templates together to build a delegate. Welp, I would defenitly do it *very* differenlty now, but still this is done and I had a lot of fun rewriting it for more and more complex cases.

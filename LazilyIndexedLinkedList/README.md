@@ -1,0 +1,1 @@
+A doubly linked list, maintaining a history of operations on it, allowing to retreive an index of an element without iterating through each and every element of the list. Suitable for cases when number of list elements is many times bigger then number of operations on it. Written in like 15-30 minutes, so no comments or testing here.

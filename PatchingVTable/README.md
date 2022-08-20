@@ -1,0 +1,3 @@
+TLDR: I **DID** steal VTable of another class and now **CAN** patch it; start from line 80. Copying is required 'cause the original VTable is stored in a read-only memory. Yes, it can get unprotected, but I don't need to modify all existing instances behaviour yet, plus this may cause a funny explosion when threading.
+
+An ongoing mess with VTables. Obtaining VTable from an entity is easy-peasy, but MSVC surprised me with a quite indirect way of accessing them, so it took some time to figure out how to extract method pointer offset from its assembly. GCC achives the same goals via much more obvious and straitforward ways. Once I get back to this, I'm planning to create something as safe as possible (ha-ha) and crosscompilable.
