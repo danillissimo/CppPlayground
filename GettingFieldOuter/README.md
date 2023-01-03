@@ -1,0 +1,1 @@
+An example of getting the owning structure address by nested one at compile time. Simplifies creation of complex fields.
