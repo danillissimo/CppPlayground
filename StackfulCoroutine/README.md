@@ -1,0 +1,1 @@
+Guess, name is self explanatory. Written for MSVC, requires x86 target to build.
