@@ -1,0 +1,1 @@
+C++26-less implementation of C++26 `#embed` for source code.
